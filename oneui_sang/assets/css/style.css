@@ -20,6 +20,7 @@ html {
     top: 0;
     right: 0;
     left: 0;
+    position: relative;
 }
 
 #nav, .subnav {
@@ -79,6 +80,14 @@ html {
 
 #slider {
     margin-top: 50px;
+}
+
+.slider__what-img {
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 52px;
+    right: 50%;
 }
 
 #content {
