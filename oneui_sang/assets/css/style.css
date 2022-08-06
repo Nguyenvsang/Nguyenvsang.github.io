@@ -14,10 +14,10 @@ html {
 }
 
 #header {
+    position: fixed;
     height: 50px;
     width: 90%;
     background-color: greenyellow;
-    position: fixed;
     top: 10px;
     right: 0;
     left: 65px;
@@ -81,28 +81,32 @@ html {
 }
 
 #slider {
-    margin-top: 50px;
 }
 
 .slider__what {
-    position: relative;
+    display: flex;
     z-index: -1;
+    justify-content: space-around;
+    margin: 70px 20px;
 }
 
 .slider__what-img {
-    width: 250px;
+    width: 20%;
     border-radius: 10px;
-    position: absolute;
-    top: 20px;
-    right: 74%;
+}
+
+.slider__what-img:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 200px 0 rgb(253, 77, 2);
 }
 
 .slider__what-title {
-    text-align: right;
-    padding-right: 40px;
-    position: absolute;
-    top: 20px;
-    right: 16%;
+    width: 50%;
+}
+
+.slider__what-content {
+    color: rgb(104, 103, 103);
+    text-align: justify;
 }
 
 #content {
