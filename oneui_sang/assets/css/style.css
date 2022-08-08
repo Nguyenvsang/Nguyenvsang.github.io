@@ -22,6 +22,7 @@ html {
     right: 0;
     left: 65px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #nav, .subnav {
@@ -80,7 +81,12 @@ html {
     background-color: #ccc;
 }
 
+#top_slider {
+    height: 40px;
+}
+
 #slider {
+    margin: 100px 0;
 }
 
 .slider__what {
@@ -107,6 +113,38 @@ html {
 .slider__what-content {
     color: rgb(104, 103, 103);
     text-align: justify;
+}
+
+#feature {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature__bigtitle {
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.feature__content {
+    color: rgb(104, 103, 103);
+    text-align: justify;
+    border: 4px solid red;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.feature__img {
+    width: 94%;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.feature__img:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 200px 0 rgb(253, 77, 2);
 }
 
 #content {
