@@ -115,9 +115,19 @@ html {
     text-align: justify;
 }
 
+#top_feature {
+    height: 40px;
+}
+
 #feature {
     display: flex;
     justify-content: space-around;
+}
+
+.feature__box {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
 }
 
 .feature__bigtitle {
@@ -126,6 +136,7 @@ html {
     border-radius: 10px;
     line-height: 100px;
     text-align: center;
+    margin: 10px 10px;
 }
 
 .feature__content {
