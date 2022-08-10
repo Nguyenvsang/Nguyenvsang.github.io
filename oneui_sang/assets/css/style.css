@@ -57,6 +57,7 @@ html {
 #nav > li:hover > a {
     color: aliceblue;
     background-color: purple;
+    border-radius: 10px;
 }
 
 #nav .subnav {
