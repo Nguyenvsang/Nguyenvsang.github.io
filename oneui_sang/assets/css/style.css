@@ -22,7 +22,7 @@ html {
     right: 0;
     left: 65px;
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #nav, .subnav {
@@ -156,6 +156,39 @@ html {
 .feature__img:hover {
     transform: translateX(10px);
     box-shadow: 0 10px 200px 0 rgb(253, 77, 2);
+}
+
+#top_customization {
+    height: 100px;
+}
+
+.customization {
+    display: flex;
+    flex-direction: column;
+}
+
+.customization__box {
+    display: flex;
+    align-items: center;
+}
+
+.customization__bigtitle {
+}
+
+.customization__img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.customization__img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px 0 rgb(101, 99, 99);
+}
+
+.customization__content {
+    color: rgb(104, 103, 103);
+    text-align: justify;
 }
 
 #content {
