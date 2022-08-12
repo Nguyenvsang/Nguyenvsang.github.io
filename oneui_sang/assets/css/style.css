@@ -192,6 +192,40 @@ html {
     text-align: justify;
 }
 
+#top__tip {
+    height: 100px;
+}
+
+.tip_box {
+    display: flex;
+    z-index: -1;
+    justify-content: space-around;
+    margin: 70px 20px;
+}
+
+.tip__img {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.tip__what-title {
+    width: 50%;
+}
+
+.tip__bigtitle {
+
+}
+
+.tip__content {
+    color: rgb(104, 103, 103);
+    text-align: justify;
+}
+
+.tip__link-img {
+    width: 20%;
+    border-radius: 10px;
+}
+
 #content {
 
 }
