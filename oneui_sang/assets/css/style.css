@@ -23,6 +23,7 @@ html {
     left: 65px;
     border-radius: 10px;
     /* overflow: hidden; */
+    z-index: 2;
 }
 
 #nav, .subnav {
@@ -252,10 +253,32 @@ html {
     width: auto;
 }
 
+#android {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 70px 20px;
+    justify-content: space-around;
+    /* z-index: -1; */
+}
+
+.android__box {
+    display: flex;
+    flex-direction: column;
+    /* z-index: -1; */
+}
+
 .android__img {
     width: 50%;
     border-radius: 10px;
     transform: translateX(50%);
+    z-index: 1;
+}
+
+.android__img:hover {
+    transform: scale(1.1);
+    transform: translateX(50%);
+    box-shadow: 0 10px 20px 0 rgb(101, 99, 99);
 }
 
 #content {
