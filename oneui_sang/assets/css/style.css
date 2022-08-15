@@ -253,7 +253,7 @@ html {
     width: auto;
 }
 
-#android {
+#compare {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -262,21 +262,21 @@ html {
     /* z-index: -1; */
 }
 
-.android__box {
+.compare__box {
     display: flex;
     flex-direction: column;
     /* z-index: -1; */
 }
 
-.android__img {
+.compare__img {
     width: 50%;
     border-radius: 10px;
     transform: translateX(50%);
     z-index: 1;
 }
 
-.android__img:hover {
-    transform: scale(1.1);
+.compare__img:hover {
+    /* transform: scale(1.1); */
     transform: translateX(50%);
     box-shadow: 0 10px 20px 0 rgb(101, 99, 99);
 }
